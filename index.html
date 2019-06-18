@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToDoList</title>
+  <link href="styles.css"
+        rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+  <div id="todo">
+    <input id="keyDetails" placeholder="Key Id" type="text"/> 
+    <label for="dateIssued">Issue Date:</label> 
+    <input id="dateIssued" type="date"/> 
+    <label for="issuedTo">Issued To:</label> 
+    <input id="issuedTo" type="text"/> 
+    <button id="add" onclick="addItem();">Add Item</button>
+  </div>
+  <div id="datadisplay">
+    <ul id="itemlist"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
